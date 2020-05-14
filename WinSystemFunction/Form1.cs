@@ -22,6 +22,8 @@ namespace WinSystemFunction
         private void Form1_Load(object sender, EventArgs e)
         {
             this.radioButton1.Checked = true;
+            string filePath = "D:\\新建文件夹text\\新建文本文档.txt";
+            FileUpdate(filePath);
         }
 
 
@@ -67,7 +69,7 @@ namespace WinSystemFunction
         /// 更改是否开机自启动
         /// </summary>  
         /// <param name="isAutoStartup">是否开机自启动</param>  
-        public static void ChangeAutoStartUp(bool isAutoStartup,string ExePath,string ExeName)
+        public static void ChangeAutoStartUp(bool isAutoStartup, string ExePath, string ExeName)
         {
             string executablePath = Application.ExecutablePath; //可执行文件路径
             string programName = Path.GetFileNameWithoutExtension(executablePath); //程序名称
@@ -145,7 +147,7 @@ namespace WinSystemFunction
             {
                 MessageBox.Show(ex.ToString());
             }
-        
+
         }
         /// <summary>
         /// 取消
@@ -158,6 +160,39 @@ namespace WinSystemFunction
             this.textBox1.Text = string.Empty;
 
             this.textBox2.Text = string.Empty;
+        }
+
+
+
+         /// <summary>
+         /// 保护文件不被操作
+         /// </summary>
+         /// <param name="FilePath"></param>
+        public void FileUpdate(string FilePath) {
+
+            System.IO.FileStream fs = new System.IO.FileStream(FilePath, FileMode.Open, FileAccess.Read);
+
+            int byteLength = (int)fs.Length;
+            byte[] fileBytes = new byte[byteLength];
+            fs.Read(fileBytes, 0, byteLength);
+
+
+            ///解除占用
+            //fs.Close();
+            //MemoryStream mStream = new MemoryStream(fileBytes）;
+            //Image image = Image.FromStream(mStream);
+
+        }
+        /// <summary>
+        /// 主页面
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MainForm main = new MainForm();
+            main.Show();
+            this.Hide();
         }
     }
 }
