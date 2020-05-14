@@ -1,0 +1,10 @@
+D:\桌面\WinSystemFunction\WinSystemFunction\bin\x86\Debug\WinSystemFunction.exe.config
+D:\桌面\WinSystemFunction\WinSystemFunction\bin\x86\Debug\WinSystemFunction.exe
+D:\桌面\WinSystemFunction\WinSystemFunction\bin\x86\Debug\WinSystemFunction.pdb
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.Form1.resources
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.Properties.Resources.resources
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.csproj.GenerateResource.Cache
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.csproj.CoreCompileInputs.cache
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.exe
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.pdb
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.csprojResolveAssemblyReference.cache
