@@ -80,6 +80,12 @@
     <Compile Include="FileMoveCopyDelete.Designer.cs">
       <DependentUpon>FileMoveCopyDelete.cs</DependentUpon>
     </Compile>
+    <Compile Include="FileNotUpdateOrNotDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileNotUpdateOrNotDelete.Designer.cs">
+      <DependentUpon>FileNotUpdateOrNotDelete.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FileMoveCopyDelete.resx">
       <DependentUpon>FileMoveCopyDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileNotUpdateOrNotDelete.resx">
+      <DependentUpon>FileNotUpdateOrNotDelete.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

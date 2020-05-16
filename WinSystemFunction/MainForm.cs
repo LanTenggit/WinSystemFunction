@@ -49,5 +49,12 @@ namespace WinSystemFunction
             operate.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FileNotUpdateOrNotDelete file = new FileNotUpdateOrNotDelete();
+            file.Show();
+            this.Hide();
+        }
     }
 }

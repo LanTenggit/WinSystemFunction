@@ -11,3 +11,4 @@ D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.cs
 D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.FileMoveCopyDelete.resources
 D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.MainForm.resources
 D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.ProcessOperate.resources
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.FileNotUpdateOrNotDelete.resources
