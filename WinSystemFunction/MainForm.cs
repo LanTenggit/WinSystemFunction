@@ -56,5 +56,16 @@ namespace WinSystemFunction
             file.Show();
             this.Hide();
         }
+       /// <summary>
+       /// 文件加密
+       /// </summary>
+       /// <param name="sender"></param>
+       /// <param name="e"></param>
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FileEncryption fileEncryption = new FileEncryption();
+            fileEncryption.Show();
+            this.Hide();
+        }
     }
 }
