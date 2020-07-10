@@ -81,6 +81,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -92,6 +93,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ComputerRemoteControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComputerRemoteControl.Designer.cs">
+      <DependentUpon>ComputerRemoteControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="FileEncryption.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +123,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,7 +142,28 @@
       <DependentUpon>ProcessOperate.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Project.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project.Designer.cs">
+      <DependentUpon>Project.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SocketClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SocketClient.Designer.cs">
+      <DependentUpon>SocketClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SocketDataTransmission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SocketDataTransmission.Designer.cs">
+      <DependentUpon>SocketDataTransmission.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ComputerRemoteControl.resx">
+      <DependentUpon>ComputerRemoteControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FileEncryption.resx">
       <DependentUpon>FileEncryption.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,11 +176,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProcessOperate.resx">
       <DependentUpon>ProcessOperate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project.resx">
+      <DependentUpon>Project.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -158,6 +198,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SocketClient.resx">
+      <DependentUpon>SocketClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SocketDataTransmission.resx">
+      <DependentUpon>SocketDataTransmission.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

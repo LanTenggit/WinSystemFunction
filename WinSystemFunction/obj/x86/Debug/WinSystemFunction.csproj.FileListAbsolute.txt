@@ -13,3 +13,8 @@ D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.Ma
 D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.ProcessOperate.resources
 D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.FileNotUpdateOrNotDelete.resources
 D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.FileEncryption.resources
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.Project.resources
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.ComputerRemoteControl.resources
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.SocketDataTransmission.resources
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.Form2.resources
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.SocketClient.resources
