@@ -18,3 +18,5 @@ D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.Co
 D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.SocketDataTransmission.resources
 D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.Form2.resources
 D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.SocketClient.resources
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.ThreadProject.resources
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.判断是否机器输入.resources

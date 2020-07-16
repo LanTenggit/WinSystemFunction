@@ -16,7 +16,7 @@ namespace WinSystemFunction
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SocketClient());
+            Application.Run(new 判断是否机器输入());
         }
     }
 }
