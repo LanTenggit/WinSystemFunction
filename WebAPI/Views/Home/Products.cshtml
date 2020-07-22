@@ -1,0 +1,94 @@
+﻿
+@{
+    ViewBag.Title = "Products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script>
+        var url = "http://" + window.location.host + "/api/ProductAPI";
+        function submitbtn() {
+            $.ajax({
+                url: url,
+                type: "get",
+                dataType: "json",
+                success: function (data) {
+                    var arr = ["<ul>"];
+                    for (var i = 0; i < data.length; i++) {
+                        arr.push("<li>id=" + data[i].Id + " name = " + data[i].Name + " Category = " + data[i].Category + " Price = " + data[i].Price + "</li>")
+                    }
+                    arr.push("</ul>");
+                    $("#div1").html(arr.join(''));
+                }
+            });
+        }
+        function PostProduct() {
+            $.ajax({
+                url: url,
+                type: "post",
+                data:
+                {
+                    id: 100,
+                    name: "b",
+                    Category: "b",
+                    Price: 11
+                },
+                success: function (data) {
+                    console.log(data);
+                    submitbtn();
+                }
+            });
+        }
+        function DeleteProduct() {
+            var id = $("input[name='id']").val();
+            $.ajax({
+                url: url + "/" + id,
+                type: "delete",
+                success: function () {
+                    submitbtn();
+                },
+                error: function (data) {
+                    console.log(data);
+                }
+            });
+        }
+
+        function PutProduct() {
+            var id = $("input[name='id']").val();
+            $.ajax({
+                url: url + "/" + id,
+                type: "put",
+                data: {
+                    Id: id,
+                    name: "修改的值",
+                    Category: "修改的值",
+                    Price: 111
+                },
+                success: function (data) {
+                    submitbtn();
+                },
+                error: function (data) {
+                    console.log(data);
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <div id="div1"></div>
+        <input type="button" value="查询所有数据 get" onclick="submitbtn()" />
+        <br />
+        <input type="button" value="增加一个name为B的数据 post" onclick="PostProduct()" />
+        <br />
+        <input name="id" type="number" value="1" />
+        <input type="button" value="删除一个数据 Delete" onclick="DeleteProduct()" />
+        <input type="button" value="修改一个数据 put" onclick="PutProduct()" />
+    </div>
+</body>
+</html>
+
