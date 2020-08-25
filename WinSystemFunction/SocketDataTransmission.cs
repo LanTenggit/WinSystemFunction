@@ -56,6 +56,7 @@ namespace WinSystemFunction
         private void ListenConnection()
         {
             Socket ConnectionSocket = null;
+            int i = 0;
             while (true)
             {
                 try
@@ -77,10 +78,16 @@ namespace WinSystemFunction
                     ",本地端口:" + ClientPort.ToString();
                 ConnectionSocket.Send(Encoding.UTF8.GetBytes(SendMessage));
                 string remotePoint = ConnectionSocket.RemoteEndPoint.ToString();
+                
                 this.Invoke(new Action(() => {
                     richTextBox2.Text += "成功与客户端" + remotePoint + "建立连接\r\n";
                     // richTextBox3.Text += DateTime.Now + ":" + remotePoint + "\r\n";
                     listBox1.Items.Add(remotePoint);
+                    i++;
+                    TextBox tb = (TextBox)groupBox2.Controls["tb_IP0" + i];
+                    tb.Text = remotePoint;
+
+
                 }));
                 ClientInformation.Add(remotePoint, ConnectionSocket);
                 ParameterizedThreadStart pts = new ParameterizedThreadStart(ReceiveMessage);
@@ -183,7 +190,6 @@ namespace WinSystemFunction
                 }
                 catch (Exception ex)
                 {
-
                     this.Invoke(new Action(() =>
                     {
                         richTextBox2.Text += "监听出现异常！\r\n";
@@ -191,10 +197,9 @@ namespace WinSystemFunction
                         ex.Message + "\r\n" + ex.StackTrace + "\r\n";
                         listBox1.Items.Remove(ReceiveSocket.RemoteEndPoint.ToString());//从listbox中移除断开连接的客户端
                     }));
-                   
                     string s = ReceiveSocket.RemoteEndPoint.ToString();
                     ClientInformation.Remove(s);
-                    ReceiveSocket.Shutdown(SocketShutdown.Both);
+                    ReceiveSocket.Shutdown(SocketShutdown.Both);  
                     ReceiveSocket.Close();
                     break;
                 }
@@ -320,6 +325,46 @@ namespace WinSystemFunction
                     }
                 }
             }
+        }
+
+        private void tb_bn01_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Text += "向客户端发送消息：\r\n";
+            string[] sendstr = new string[10];
+            sendstr[0] = tb_Send01.Text;
+            sendstr[1] = tb_Send02.Text;
+            sendstr[2] = tb_Send03.Text;
+            sendstr[3] = tb_Send04.Text;
+            sendstr[4] = tb_Send05.Text;
+            sendstr[5] = tb_Send06.Text;
+            sendstr[6] = tb_Send07.Text;
+            sendstr[7] = tb_Send08.Text;
+            sendstr[8] = tb_Send09.Text;
+            sendstr[9] = tb_Send10.Text;
+            List<string> test = new List<string>(ClientInformation.Keys);
+       
+            for (int i = 0; i < ClientInformation.Count; i++)
+            {
+
+                   richTextBox1.Text += sendstr[i] + "\r\n";
+                   string SendMessage = "接收服务器" + ServerSocket.LocalEndPoint.ToString() + "消息：" + DateTime.Now + "\r\n" + sendstr[i] + "\r\n";
+                   //给每个在线客户端发送消息
+                    Socket socket = ClientInformation[test[i]];
+                    byte[] arrMsg = Encoding.UTF8.GetBytes(SendMessage);
+                    byte[] SendMsg = new byte[arrMsg.Length + 1];
+                    SendMsg[0] = 0;
+                    Buffer.BlockCopy(arrMsg, 0, SendMsg, 1, arrMsg.Length);
+                    socket.Send(SendMsg);
+               
+           
+            }
+
+            //tb_sendtxt.Clear();
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

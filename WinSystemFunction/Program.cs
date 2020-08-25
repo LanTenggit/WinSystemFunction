@@ -16,7 +16,7 @@ namespace WinSystemFunction
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ImgToString());
+            Application.Run(new SocketDataTransmission());
         }
     }
 }

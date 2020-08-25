@@ -35,5 +35,13 @@ namespace WebAPI.Controllers
         public void Delete(int id)
         {
         }
+
+
+        // DELETE api/values/5
+        public string  Delete()
+        {
+
+            return "you are win ";
+        }
     }
 }
