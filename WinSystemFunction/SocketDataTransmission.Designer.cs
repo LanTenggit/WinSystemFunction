@@ -43,6 +43,9 @@
             this.bn_SendFile = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.tb_Send10 = new System.Windows.Forms.TextBox();
             this.tb_IP10 = new System.Windows.Forms.TextBox();
             this.tb_Send09 = new System.Windows.Forms.TextBox();
@@ -67,9 +70,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tb_IP01 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -236,16 +236,43 @@
             this.groupBox2.Text = "Client";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(513, 20);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(29, 12);
+            this.label6.TabIndex = 80;
+            this.label6.Text = "Port";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(684, 20);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(29, 12);
+            this.label7.TabIndex = 79;
+            this.label7.Text = "Send";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(475, 20);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(17, 12);
+            this.label8.TabIndex = 78;
+            this.label8.Text = "IP";
+            // 
             // tb_Send10
             // 
-            this.tb_Send10.Location = new System.Drawing.Point(552, 194);
+            this.tb_Send10.Location = new System.Drawing.Point(587, 193);
             this.tb_Send10.Name = "tb_Send10";
             this.tb_Send10.Size = new System.Drawing.Size(214, 21);
             this.tb_Send10.TabIndex = 77;
             // 
             // tb_IP10
             // 
-            this.tb_IP10.Location = new System.Drawing.Point(410, 194);
+            this.tb_IP10.Location = new System.Drawing.Point(445, 193);
             this.tb_IP10.Name = "tb_IP10";
             this.tb_IP10.Size = new System.Drawing.Size(126, 21);
             this.tb_IP10.TabIndex = 76;
@@ -266,14 +293,14 @@
             // 
             // tb_Send08
             // 
-            this.tb_Send08.Location = new System.Drawing.Point(552, 155);
+            this.tb_Send08.Location = new System.Drawing.Point(587, 154);
             this.tb_Send08.Name = "tb_Send08";
             this.tb_Send08.Size = new System.Drawing.Size(214, 21);
             this.tb_Send08.TabIndex = 69;
             // 
             // tb_IP08
             // 
-            this.tb_IP08.Location = new System.Drawing.Point(410, 155);
+            this.tb_IP08.Location = new System.Drawing.Point(445, 154);
             this.tb_IP08.Name = "tb_IP08";
             this.tb_IP08.Size = new System.Drawing.Size(126, 21);
             this.tb_IP08.TabIndex = 66;
@@ -294,14 +321,14 @@
             // 
             // tb_Send06
             // 
-            this.tb_Send06.Location = new System.Drawing.Point(552, 119);
+            this.tb_Send06.Location = new System.Drawing.Point(587, 118);
             this.tb_Send06.Name = "tb_Send06";
             this.tb_Send06.Size = new System.Drawing.Size(214, 21);
             this.tb_Send06.TabIndex = 55;
             // 
             // tb_IP06
             // 
-            this.tb_IP06.Location = new System.Drawing.Point(410, 119);
+            this.tb_IP06.Location = new System.Drawing.Point(445, 118);
             this.tb_IP06.Name = "tb_IP06";
             this.tb_IP06.Size = new System.Drawing.Size(126, 21);
             this.tb_IP06.TabIndex = 52;
@@ -322,14 +349,14 @@
             // 
             // tb_Send04
             // 
-            this.tb_Send04.Location = new System.Drawing.Point(552, 82);
+            this.tb_Send04.Location = new System.Drawing.Point(587, 81);
             this.tb_Send04.Name = "tb_Send04";
             this.tb_Send04.Size = new System.Drawing.Size(214, 21);
             this.tb_Send04.TabIndex = 41;
             // 
             // tb_IP04
             // 
-            this.tb_IP04.Location = new System.Drawing.Point(410, 82);
+            this.tb_IP04.Location = new System.Drawing.Point(445, 81);
             this.tb_IP04.Name = "tb_IP04";
             this.tb_IP04.Size = new System.Drawing.Size(126, 21);
             this.tb_IP04.TabIndex = 38;
@@ -350,14 +377,14 @@
             // 
             // tb_Send02
             // 
-            this.tb_Send02.Location = new System.Drawing.Point(552, 45);
+            this.tb_Send02.Location = new System.Drawing.Point(587, 44);
             this.tb_Send02.Name = "tb_Send02";
             this.tb_Send02.Size = new System.Drawing.Size(214, 21);
             this.tb_Send02.TabIndex = 27;
             // 
             // tb_IP02
             // 
-            this.tb_IP02.Location = new System.Drawing.Point(410, 45);
+            this.tb_IP02.Location = new System.Drawing.Point(445, 44);
             this.tb_IP02.Name = "tb_IP02";
             this.tb_IP02.Size = new System.Drawing.Size(126, 21);
             this.tb_IP02.TabIndex = 24;
@@ -373,7 +400,7 @@
             // 
             // tb_bn01
             // 
-            this.tb_bn01.Location = new System.Drawing.Point(795, 117);
+            this.tb_bn01.Location = new System.Drawing.Point(811, 117);
             this.tb_bn01.Name = "tb_bn01";
             this.tb_bn01.Size = new System.Drawing.Size(59, 23);
             this.tb_bn01.TabIndex = 21;
@@ -412,33 +439,6 @@
             this.tb_IP01.Name = "tb_IP01";
             this.tb_IP01.Size = new System.Drawing.Size(126, 21);
             this.tb_IP01.TabIndex = 17;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(478, 21);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 12);
-            this.label6.TabIndex = 80;
-            this.label6.Text = "Port";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(649, 21);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(29, 12);
-            this.label7.TabIndex = 79;
-            this.label7.Text = "Send";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(440, 21);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(17, 12);
-            this.label8.TabIndex = 78;
-            this.label8.Text = "IP";
             // 
             // SocketDataTransmission
             // 
