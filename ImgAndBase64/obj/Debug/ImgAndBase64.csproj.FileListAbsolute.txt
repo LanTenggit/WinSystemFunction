@@ -1,0 +1,13 @@
+D:\桌面\WinSystemFunction\ImgAndBase64\obj\Debug\ImgAndBase64.csprojResolveAssemblyReference.cache
+D:\桌面\WinSystemFunction\ImgAndBase64\obj\Debug\Base64AndImage.Form1.resources
+D:\桌面\WinSystemFunction\ImgAndBase64\obj\Debug\Base64AndImage.ImgTobase.resources
+D:\桌面\WinSystemFunction\ImgAndBase64\obj\Debug\Base64AndImage.Main.resources
+D:\桌面\WinSystemFunction\ImgAndBase64\obj\Debug\ImgAndBase64.Properties.Resources.resources
+D:\桌面\WinSystemFunction\ImgAndBase64\obj\Debug\ImgAndBase64.csproj.GenerateResource.Cache
+D:\桌面\WinSystemFunction\ImgAndBase64\obj\Debug\ImgAndBase64.csproj.CoreCompileInputs.cache
+D:\桌面\WinSystemFunction\ImgAndBase64\bin\Debug\ImgAndBase64.exe.config
+D:\桌面\WinSystemFunction\ImgAndBase64\bin\Debug\ImgAndBase64.exe
+D:\桌面\WinSystemFunction\ImgAndBase64\bin\Debug\ImgAndBase64.pdb
+D:\桌面\WinSystemFunction\ImgAndBase64\obj\Debug\ImgAndBase64.exe
+D:\桌面\WinSystemFunction\ImgAndBase64\obj\Debug\ImgAndBase64.pdb
+D:\桌面\WinSystemFunction\ImgAndBase64\obj\Debug\WinSystemFunction.无损压缩图片.resources
