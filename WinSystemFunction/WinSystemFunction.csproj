@@ -180,6 +180,12 @@
     <Compile Include="ThreadProject.Designer.cs">
       <DependentUpon>ThreadProject.cs</DependentUpon>
     </Compile>
+    <Compile Include="无损压缩图片.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="无损压缩图片.Designer.cs">
+      <DependentUpon>无损压缩图片.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ComputerRemoteControl.resx">
       <DependentUpon>ComputerRemoteControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -231,6 +237,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ThreadProject.resx">
       <DependentUpon>ThreadProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="无损压缩图片.resx">
+      <DependentUpon>无损压缩图片.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">

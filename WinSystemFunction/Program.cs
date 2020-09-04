@@ -16,7 +16,7 @@ namespace WinSystemFunction
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SocketDataTransmission());
+            Application.Run(new 无损压缩图片());
         }
     }
 }
