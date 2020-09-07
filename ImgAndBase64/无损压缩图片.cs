@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Base64AndImage;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -69,7 +70,10 @@ namespace WinSystemFunction
             }
             Guid guid = Guid.NewGuid();
             LoadPath += "/"+guid+".png";
-            GetPicThumbnail(filePath, LoadPath, 200,200,20);
+            int height =Convert.ToInt32(this.tb_height.Text) ;
+            int wight = Convert.ToInt32(this.tb_width.Text);
+            int bili = Convert.ToInt32(this.tb_bili.Text);
+            GetPicThumbnail(filePath, LoadPath, height, wight, bili);
 
         }
 
@@ -156,6 +160,18 @@ namespace WinSystemFunction
             }
         }
         #endregion
+
+        /// <summary>
+        /// 返回
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Main main = new Main();
+            main.Show();
+            this.Hide();
+        }
     }
 
 }
