@@ -142,6 +142,12 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MoveHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoveHouse.Designer.cs">
+      <DependentUpon>MoveHouse.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProcessOperate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -209,6 +215,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoveHouse.resx">
+      <DependentUpon>MoveHouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProcessOperate.resx">
       <DependentUpon>ProcessOperate.cs</DependentUpon>

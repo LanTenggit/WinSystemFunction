@@ -22,3 +22,4 @@ D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.Th
 D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.判断是否机器输入.resources
 D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.ImgToString.resources
 D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.无损压缩图片.resources
+D:\桌面\WinSystemFunction\WinSystemFunction\obj\x86\Debug\WinSystemFunction.MoveHouse.resources
