@@ -16,7 +16,7 @@ namespace WinSystemFunction
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MoveHouse());
+            Application.Run(new 内存清理());
         }
     }
 }

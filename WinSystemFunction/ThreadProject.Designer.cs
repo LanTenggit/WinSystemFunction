@@ -57,6 +57,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "ThreadProject";
             this.Text = "ThreadProject";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ThreadProject_FormClosing);
             this.Load += new System.EventHandler(this.ThreadProject_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

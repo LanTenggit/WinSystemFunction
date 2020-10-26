@@ -87,9 +87,9 @@ namespace WinSystemFunction
 
         }
 
-
-
-
-
+        private void ThreadProject_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Environment.Exit(0);
+        }
     }
 }

@@ -67,6 +67,7 @@ namespace WinSystemFunction
         {
             int dx = 334;
             int dy = 633;
+       
             dx = Convert.ToInt32(this.tb_X.Text);
             dy = Convert.ToInt32(this.tb_Y.Text);
 
