@@ -1,0 +1,14 @@
+****************************异常文本****************************
+【出现时间】：2020/12/26 16:54:17
+【异常类型】：ArgumentException
+【异常信息】：参数无效。
+【堆栈调用】：   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   在 WinSystemFunction.内存清理.JieTu() 位置 D:\桌面\WinSystemFunction\WinSystemFunction\内存清理.cs:行号 66
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+***************************************************************
+2020/12/26 16:54:17
