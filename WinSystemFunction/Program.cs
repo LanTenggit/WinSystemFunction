@@ -25,7 +25,7 @@ namespace WinSystemFunction
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new 内存清理());
+            Application.Run(new 字符MD5加密());
         }
 
         /// <summary>

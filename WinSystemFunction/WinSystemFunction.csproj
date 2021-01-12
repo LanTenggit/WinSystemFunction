@@ -192,6 +192,12 @@
     <Compile Include="ThreadProject.Designer.cs">
       <DependentUpon>ThreadProject.cs</DependentUpon>
     </Compile>
+    <Compile Include="字符MD5加密.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="字符MD5加密.Designer.cs">
+      <DependentUpon>字符MD5加密.cs</DependentUpon>
+    </Compile>
     <Compile Include="无损压缩图片.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -256,6 +262,9 @@
     <EmbeddedResource Include="ThreadProject.resx">
       <DependentUpon>ThreadProject.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="字符MD5加密.resx">
+      <DependentUpon>字符MD5加密.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="无损压缩图片.resx">
       <DependentUpon>无损压缩图片.cs</DependentUpon>
     </EmbeddedResource>
@@ -284,6 +293,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{978e4e43-a0d7-4e16-b036-66fa6c2a8a39}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

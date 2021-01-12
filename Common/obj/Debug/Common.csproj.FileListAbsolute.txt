@@ -1,0 +1,6 @@
+D:\桌面\WinSystemFunction\Common\bin\Debug\Common.dll
+D:\桌面\WinSystemFunction\Common\bin\Debug\Common.pdb
+D:\桌面\WinSystemFunction\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\桌面\WinSystemFunction\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\桌面\WinSystemFunction\Common\obj\Debug\Common.dll
+D:\桌面\WinSystemFunction\Common\obj\Debug\Common.pdb

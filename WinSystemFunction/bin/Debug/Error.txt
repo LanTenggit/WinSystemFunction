@@ -1,0 +1,12 @@
+****************************异常文本****************************
+【出现时间】：2021/1/12 9:10:17
+【异常类型】：ExternalException
+【异常信息】：GDI+ 中发生一般性错误。
+【堆栈调用】：   在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 WinSystemFunction.内存清理.JieTu() 位置 D:\桌面\WinSystemFunction\WinSystemFunction\内存清理.cs:行号 74
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+***************************************************************
+2021/1/12 9:10:17
