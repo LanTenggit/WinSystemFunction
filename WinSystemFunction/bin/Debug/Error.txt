@@ -10,3 +10,35 @@
    在 System.Threading.ThreadHelper.ThreadStart()
 ***************************************************************
 2021/1/12 9:10:17
+****************************异常文本****************************
+【出现时间】：2021/1/12 10:48:12
+【异常类型】：SocketException
+【异常信息】：由于套接字没有连接并且(当使用一个 sendto 调用发送数据报套接字时)没有提供地址，发送或接收数据的请求没有被接受。
+【堆栈调用】：   在 System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   在 WinSystemFunction.SocketDataTransmission.bn_listen_Click(Object sender, EventArgs e) 位置 D:\桌面\WinSystemFunction\WinSystemFunction\SocketDataTransmission.cs:行号 51
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+2021/1/12 10:48:12
+****************************异常文本****************************
+【出现时间】：2021/1/12 10:48:15
+【异常类型】：SocketException
+【异常信息】：由于套接字没有连接并且(当使用一个 sendto 调用发送数据报套接字时)没有提供地址，发送或接收数据的请求没有被接受。
+【堆栈调用】：   在 System.Net.Sockets.Socket.Shutdown(SocketShutdown how)
+   在 WinSystemFunction.SocketDataTransmission.bn_listen_Click(Object sender, EventArgs e) 位置 D:\桌面\WinSystemFunction\WinSystemFunction\SocketDataTransmission.cs:行号 51
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+2021/1/12 10:48:15

@@ -25,7 +25,7 @@ namespace WinSystemFunction
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new 字符MD5加密());
+            Application.Run(new SocketDataTransmission());
         }
 
         /// <summary>
