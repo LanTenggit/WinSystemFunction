@@ -1,0 +1,10 @@
+D:\桌面\WinSystemFunction\LogFunction\bin\Debug\LogFunction.exe.config
+D:\桌面\WinSystemFunction\LogFunction\bin\Debug\LogFunction.exe
+D:\桌面\WinSystemFunction\LogFunction\bin\Debug\LogFunction.pdb
+D:\桌面\WinSystemFunction\LogFunction\obj\Debug\LogFunction.csprojResolveAssemblyReference.cache
+D:\桌面\WinSystemFunction\LogFunction\obj\Debug\LogFunction.Form1.resources
+D:\桌面\WinSystemFunction\LogFunction\obj\Debug\LogFunction.Properties.Resources.resources
+D:\桌面\WinSystemFunction\LogFunction\obj\Debug\LogFunction.csproj.GenerateResource.Cache
+D:\桌面\WinSystemFunction\LogFunction\obj\Debug\LogFunction.csproj.CoreCompileInputs.cache
+D:\桌面\WinSystemFunction\LogFunction\obj\Debug\LogFunction.exe
+D:\桌面\WinSystemFunction\LogFunction\obj\Debug\LogFunction.pdb

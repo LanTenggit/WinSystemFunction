@@ -1,7 +1,6 @@
 D:\桌面\WinSystemFunction\Log记录\bin\x64\Debug\Log记录.exe.config
 D:\桌面\WinSystemFunction\Log记录\bin\x64\Debug\Log记录.exe
 D:\桌面\WinSystemFunction\Log记录\bin\x64\Debug\Log记录.pdb
-D:\桌面\WinSystemFunction\Log记录\bin\x64\Debug\log4net.dll
 D:\桌面\WinSystemFunction\Log记录\bin\x64\Debug\log4net.xml
 D:\桌面\WinSystemFunction\Log记录\obj\x64\Debug\Log记录.Form1.resources
 D:\桌面\WinSystemFunction\Log记录\obj\x64\Debug\Log记录.Properties.Resources.resources
@@ -9,3 +8,4 @@ D:\桌面\WinSystemFunction\Log记录\obj\x64\Debug\Log记录.csproj.GenerateRes
 D:\桌面\WinSystemFunction\Log记录\obj\x64\Debug\Log记录.csproj.CoreCompileInputs.cache
 D:\桌面\WinSystemFunction\Log记录\obj\x64\Debug\Log记录.exe
 D:\桌面\WinSystemFunction\Log记录\obj\x64\Debug\Log记录.pdb
+D:\桌面\WinSystemFunction\Log记录\obj\x64\Debug\Log记录.csprojResolveAssemblyReference.cache
