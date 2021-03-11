@@ -1,0 +1,11 @@
+D:\桌面\WinSystemFunction\OpencvSharpTest\bin\Debug\OpencvSharpTest.exe.config
+D:\桌面\WinSystemFunction\OpencvSharpTest\bin\Debug\OpencvSharpTest.exe
+D:\桌面\WinSystemFunction\OpencvSharpTest\bin\Debug\OpencvSharpTest.pdb
+D:\桌面\WinSystemFunction\OpencvSharpTest\bin\Debug\OpenCvSharp.dll
+D:\桌面\WinSystemFunction\OpencvSharpTest\obj\Debug\OpencvSharpTest.csprojResolveAssemblyReference.cache
+D:\桌面\WinSystemFunction\OpencvSharpTest\obj\Debug\OpencvSharpTest.Form1.resources
+D:\桌面\WinSystemFunction\OpencvSharpTest\obj\Debug\OpencvSharpTest.Properties.Resources.resources
+D:\桌面\WinSystemFunction\OpencvSharpTest\obj\Debug\OpencvSharpTest.csproj.GenerateResource.Cache
+D:\桌面\WinSystemFunction\OpencvSharpTest\obj\Debug\OpencvSharpTest.csproj.CoreCompileInputs.cache
+D:\桌面\WinSystemFunction\OpencvSharpTest\obj\Debug\OpencvSharpTest.exe
+D:\桌面\WinSystemFunction\OpencvSharpTest\obj\Debug\OpencvSharpTest.pdb
